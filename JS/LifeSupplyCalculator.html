@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Life Supply Calculator</title>
+    <link rel="stylesheet" href="CSS/supply.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="LifeSupplyCalculator.html">Supply Calculator</a>
+    </nav>
+
+    <h1>Life Supply Calculator</h1>
+    <hr>
+
+    <h3>Daily Food Supply Calculator</h3>
+    <div id="result"></div>
+
+    <form>
+        <label for="age">Current Age:</label>
+        <input type="number" id="age">
+
+        <br><br>
+
+        <label for="supplyType">Select Supply Type</label>
+
+        <select id="supplyType">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="big">Big</option>
+            <option value="xtralarge">Xtra Large</option>
+        </select>
+
+        <br><br>
+
+        <button type="button" id="calculate">Calculate Daily Supply</button>
+    </form>
+
+    <script src="JS/LifeSupportCalculatorApp.js"></script>
+</body>
+
+</html>
